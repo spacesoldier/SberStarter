@@ -25,11 +25,8 @@
     <string name="tab_new">НОВЫЕ</string>
     <string name="tab_my_project">МОИ ПРОЕКТЫ</string>
     <string name="tab_my_deposit">МОИ ВКЛАДЫ</string>
-    
-    <string name="tab_about">О Проекте</string>
-    <string name="tab_author">Автор</string>
-    <string name="tab_discuss">Вопросы</string>
-    <string name="tab_fund">Поддержать</string>
-    
-    
+
+    <string name="category_title_1">Сбор средств на запись \n нового альбома Empire</string>
+    <string name="category_title_2">Ремастеринг бутлегов, демо \n и бисайдов Nirvana</string>
+
 </resources>

@@ -2,6 +2,7 @@ package com.soloway.banking.sberstarter;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -112,7 +113,6 @@ public class MainActivity extends FragmentActivity
         // update the main content by replacing fragments
        
         //switch fragments by category
-        
        // Fragment fragment = new CategoryFragment();
 /*
         fragmentManager.beginTransaction()

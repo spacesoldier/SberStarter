@@ -10,6 +10,9 @@ package com.soloway.banking.sberstarter;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int sberstartertheme_color=0x7f040000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -18,19 +21,20 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
-        public static final int list_item_height=0x7f040007;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int list_item_height=0x7f050007;
         /** 
          Per the design guidelines, navigation drawers should be between 240dp and 320dp:
          https://developer.android.com/design/patterns/navigation-drawer.html
     
          */
-        public static final int navigation_drawer_width=0x7f040002;
-        public static final int tab_height=0x7f040003;
-        public static final int tab_padding=0x7f040004;
-        public static final int text_default=0x7f040006;
-        public static final int text_small=0x7f040005;
+        public static final int navigation_drawer_width=0x7f050002;
+        public static final int tab_height=0x7f050003;
+        public static final int tab_host_default_height=0x7f050008;
+        public static final int tab_padding=0x7f050004;
+        public static final int text_default=0x7f050006;
+        public static final int text_small=0x7f050005;
     }
     public static final class drawable {
         public static final int ab_background_textured_sberstyle=0x7f020000;
@@ -58,72 +62,92 @@ public final class R {
         public static final int progress_horizontal_sberstyle=0x7f020016;
         public static final int progress_primary_sberstyle=0x7f020017;
         public static final int progress_secondary_sberstyle=0x7f020018;
-        public static final int selectable_background_sberstyle=0x7f020019;
-        public static final int spinner_ab_default_sberstyle=0x7f02001a;
-        public static final int spinner_ab_disabled_sberstyle=0x7f02001b;
-        public static final int spinner_ab_focused_sberstyle=0x7f02001c;
-        public static final int spinner_ab_pressed_sberstyle=0x7f02001d;
-        public static final int spinner_background_ab_sberstyle=0x7f02001e;
-        public static final int tab_focused=0x7f02001f;
-        public static final int tab_indicator_ab_sberstyle=0x7f020020;
-        public static final int tab_pressed=0x7f020021;
-        public static final int tab_selected=0x7f020022;
-        public static final int tab_selected_focused_sberstyle=0x7f020023;
-        public static final int tab_selected_pressed_sberstyle=0x7f020024;
-        public static final int tab_selected_sberstyle=0x7f020025;
-        public static final int tab_selector=0x7f020026;
-        public static final int tab_text_selector=0x7f020027;
-        public static final int tab_unselected=0x7f020028;
-        public static final int tab_unselected_focused_sberstyle=0x7f020029;
-        public static final int tab_unselected_pressed_sberstyle=0x7f02002a;
-        public static final int tab_unselected_sberstyle=0x7f02002b;
+        public static final int sberstartertheme_btn_default_disabled_focused_holo_light=0x7f020019;
+        public static final int sberstartertheme_btn_default_disabled_holo_light=0x7f02001a;
+        public static final int sberstartertheme_btn_default_focused_holo_light=0x7f02001b;
+        public static final int sberstartertheme_btn_default_holo_light=0x7f02001c;
+        public static final int sberstartertheme_btn_default_normal_holo_light=0x7f02001d;
+        public static final int sberstartertheme_btn_default_pressed_holo_light=0x7f02001e;
+        public static final int sberstartertheme_ic_navigation_drawer=0x7f02001f;
+        public static final int sberstartertheme_tab_indicator_holo=0x7f020020;
+        public static final int sberstartertheme_tab_selected_focused_holo=0x7f020021;
+        public static final int sberstartertheme_tab_selected_holo=0x7f020022;
+        public static final int sberstartertheme_tab_selected_pressed_holo=0x7f020023;
+        public static final int sberstartertheme_tab_unselected_focused_holo=0x7f020024;
+        public static final int sberstartertheme_tab_unselected_holo=0x7f020025;
+        public static final int sberstartertheme_tab_unselected_pressed_holo=0x7f020026;
+        public static final int selectable_background_sberstyle=0x7f020027;
+        public static final int spinner_ab_default_sberstyle=0x7f020028;
+        public static final int spinner_ab_disabled_sberstyle=0x7f020029;
+        public static final int spinner_ab_focused_sberstyle=0x7f02002a;
+        public static final int spinner_ab_pressed_sberstyle=0x7f02002b;
+        public static final int spinner_background_ab_sberstyle=0x7f02002c;
+        public static final int tab_focused=0x7f02002d;
+        public static final int tab_indicator_ab_sberstyle=0x7f02002e;
+        public static final int tab_pressed=0x7f02002f;
+        public static final int tab_selected=0x7f020030;
+        public static final int tab_selected_focused_sberstyle=0x7f020031;
+        public static final int tab_selected_pressed_sberstyle=0x7f020032;
+        public static final int tab_selected_sberstyle=0x7f020033;
+        public static final int tab_selector=0x7f020034;
+        public static final int tab_text_selector=0x7f020035;
+        public static final int tab_unselected=0x7f020036;
+        public static final int tab_unselected_focused_sberstyle=0x7f020037;
+        public static final int tab_unselected_pressed_sberstyle=0x7f020038;
+        public static final int tab_unselected_sberstyle=0x7f020039;
     }
     public static final class id {
-        public static final int action_example=0x7f080005;
-        public static final int action_settings=0x7f080004;
-        public static final int drawer_layout=0x7f080000;
-        public static final int navigation_drawer=0x7f080002;
-        public static final int realtabcontent=0x7f080001;
-        public static final int section_label=0x7f080003;
+        public static final int action_example=0x7f090005;
+        public static final int action_settings=0x7f090004;
+        public static final int drawer_layout=0x7f090000;
+        public static final int navigation_drawer=0x7f090002;
+        public static final int realtabcontent=0x7f090001;
+        public static final int section_label=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int fragment_main=0x7f030001;
         public static final int fragment_navigation_drawer=0x7f030002;
-        public static final int tab_all=0x7f030003;
-        public static final int tab_fav=0x7f030004;
-        public static final int tab_my=0x7f030005;
+        public static final int fragment_project_descr=0x7f030003;
+        public static final int sberstartertheme_tab_indicator_holo=0x7f030004;
+        public static final int tab_all=0x7f030005;
+        public static final int tab_fav=0x7f030006;
+        public static final int tab_my=0x7f030007;
+        public static final int tab_project_about=0x7f030008;
+        public static final int tab_project_author=0x7f030009;
+        public static final int tab_project_discuss=0x7f03000a;
+        public static final int tab_project_fund=0x7f03000b;
     }
     public static final class menu {
-        public static final int global=0x7f070000;
-        public static final int main=0x7f070001;
+        public static final int global=0x7f080000;
+        public static final int main=0x7f080001;
     }
     public static final class string {
-        public static final int action_example=0x7f050006;
-        public static final int action_settings=0x7f050007;
-        public static final int app_name=0x7f050000;
-        public static final int menu_title=0x7f05000e;
-        public static final int navigation_drawer_close=0x7f050005;
-        public static final int navigation_drawer_open=0x7f050004;
-        public static final int tab1_fragment_string=0x7f050012;
-        public static final int tab_all=0x7f05000f;
-        public static final int tab_fav=0x7f050011;
-        public static final int tab_my=0x7f050010;
-        public static final int title_section1=0x7f050001;
-        public static final int title_section2=0x7f050002;
-        public static final int title_section3=0x7f050003;
-        public static final int title_section4=0x7f050008;
-        public static final int title_section5=0x7f050009;
-        public static final int title_section6=0x7f05000a;
-        public static final int title_section7=0x7f05000b;
-        public static final int title_section8=0x7f05000c;
-        public static final int title_section9=0x7f05000d;
+        public static final int action_example=0x7f060006;
+        public static final int action_settings=0x7f060007;
+        public static final int app_name=0x7f060000;
+        public static final int menu_title=0x7f06000e;
+        public static final int navigation_drawer_close=0x7f060005;
+        public static final int navigation_drawer_open=0x7f060004;
+        public static final int tab1_fragment_string=0x7f060012;
+        public static final int tab_all=0x7f06000f;
+        public static final int tab_fav=0x7f060011;
+        public static final int tab_my=0x7f060010;
+        public static final int title_section1=0x7f060001;
+        public static final int title_section2=0x7f060002;
+        public static final int title_section3=0x7f060003;
+        public static final int title_section4=0x7f060008;
+        public static final int title_section5=0x7f060009;
+        public static final int title_section6=0x7f06000a;
+        public static final int title_section7=0x7f06000b;
+        public static final int title_section8=0x7f06000c;
+        public static final int title_section9=0x7f06000d;
     }
     public static final class style {
-        public static final int ActionBar_Solid_Sberstyle=0x7f060003;
-        public static final int ActionBar_Transparent_Sberstyle=0x7f060004;
-        public static final int ActionBarTabStyle_Sberstyle=0x7f060007;
-        public static final int ActionButton_CloseMode_Sberstyle=0x7f06000a;
+        public static final int ActionBar_Solid_Sberstyle=0x7f070007;
+        public static final int ActionBar_Transparent_Sberstyle=0x7f070008;
+        public static final int ActionBarTabStyle_Sberstyle=0x7f07000b;
+        public static final int ActionButton_CloseMode_Sberstyle=0x7f07000e;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -145,19 +169,25 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
  <item name="android:background">@style/MyActionBar</item>
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int DropDownListView_Sberstyle=0x7f060006;
-        public static final int DropDownNav_Sberstyle=0x7f060008;
-        public static final int PopupMenu_Sberstyle=0x7f060005;
-        public static final int ProgressBar_Sberstyle=0x7f060009;
-        public static final int Theme_Sberstyle=0x7f060002;
+        public static final int AppTheme=0x7f070001;
+        public static final int ButtonSberStarterTheme=0x7f070002;
+        public static final int DropDownListView_Sberstyle=0x7f07000a;
+        public static final int DropDownNav_Sberstyle=0x7f07000c;
+        public static final int ImageButtonSberStarterTheme=0x7f070003;
+        public static final int PopupMenu_Sberstyle=0x7f070009;
+        public static final int ProgressBar_Sberstyle=0x7f07000d;
+        public static final int SberStarterTheme=0x7f070010;
+        public static final int TabSberStarterTheme=0x7f070004;
+        public static final int TabTextSberStarterTheme=0x7f070005;
+        public static final int Theme_Sberstyle=0x7f070006;
         /**  this style is only referenced in a Light.DarkActionBar based theme 
          */
-        public static final int Theme_Sberstyle_Widget=0x7f06000b;
+        public static final int Theme_Sberstyle_Widget=0x7f07000f;
+        public static final int _SberStarterTheme=0x7f070011;
     }
 }

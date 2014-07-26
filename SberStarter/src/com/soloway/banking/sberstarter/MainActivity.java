@@ -31,6 +31,7 @@ public class MainActivity extends FragmentActivity
     private Fragment fragmentTabAll = new FragmentTabAll();
     private Fragment fragmentTabMy = new FragmentTabMy();
     private Fragment fragmentTabFav = new FragmentTabFav();
+    private Fragment fragmentProjectDescr = new FragmentProjectDescr();
  
 
     @Override
@@ -47,6 +48,9 @@ public class MainActivity extends FragmentActivity
         		FragmentTabMy.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator("Закладки"),
         		FragmentTabFav.class, null);
+        
+        mTabHost.addTab(mTabHost.newTabSpec("tab4").setIndicator("TEST"),
+        		FragmentProjectDescr.class, null);
         
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);

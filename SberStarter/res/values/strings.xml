@@ -26,5 +26,10 @@
     <string name="tab_my_project">МОИ ПРОЕКТЫ</string>
     <string name="tab_my_deposit">МОИ ВКЛАДЫ</string>
     
+    <string name="tab_about">О Проекте</string>
+    <string name="tab_author">Автор</string>
+    <string name="tab_discuss">Вопросы</string>
+    <string name="tab_fund">Поддержать</string>
+    
     
 </resources>

@@ -28,6 +28,7 @@ public class MainActivity extends FragmentActivity
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private FragmentTabHost mTabHost;
+    private FragmentTabHost mDescrHost;
 
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
@@ -37,23 +38,26 @@ public class MainActivity extends FragmentActivity
     private Fragment fragmentTabAll = new FragmentTabAll();
     private Fragment fragmentTabMy = new FragmentTabMy();
     private Fragment fragmentTabFav = new FragmentTabFav();
+    
+    // project page
+	private Fragment fragmentProjectAbout = new FragmentProjectAbout();
+    private Fragment fragmentProjectAuthor = new FragmentProjectAuthor();
+    private Fragment fragmentProjectDiscuss = new FragmentProjectDiscuss();
+    private Fragment fragmentProjectFund = new FragmentProjectFund();
+    
+    private Fragment fragmentProjectDescr = new FragmentProjectDescr();
  
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        createProjectList();
 
-        mTabHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
-        mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
 
-        mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.tab_new)),
-        		FragmentTabAll.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator(getResources().getString(R.string.tab_my_project)),
-        		FragmentTabMy.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
-        		FragmentTabFav.class, null);
 
+        
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -64,8 +68,47 @@ public class MainActivity extends FragmentActivity
                 (DrawerLayout) findViewById(R.id.drawer_layout));
     }
 
+	private void createProjectPage() {
+		mDescrHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
+        mDescrHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
+        mDescrHost.addTab(mDescrHost.newTabSpec("about").setIndicator(getResources().getString(R.string.tab_about)),
+        		FragmentProjectAbout.class, null);
+        mDescrHost.addTab(mDescrHost.newTabSpec("author").setIndicator(getResources().getString(R.string.tab_author)),
+        		FragmentProjectAuthor.class, null);
+        mDescrHost.addTab(mDescrHost.newTabSpec("discuss").setIndicator(getResources().getString(R.string.tab_discuss)),
+        		FragmentProjectDiscuss.class, null);
+        mDescrHost.addTab(mDescrHost.newTabSpec("fund").setIndicator(getResources().getString(R.string.tab_fund)),
+        		FragmentProjectFund.class, null);
+	}
+
+	private void createProjectList() {
+		// project list
+        mTabHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
+        mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
+
+        mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.tab_new)),
+        		FragmentTabAll.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator(getResources().getString(R.string.tab_my_project)),
+        		FragmentTabMy.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
+        		FragmentTabFav.class, null);
+	}
+
     @Override
     public void onNavigationDrawerItemSelected(int position) {
+    	
+    	switch (position){
+	    	case 1:
+	    		mDescrHost.clearAllTabs();
+	    		createProjectList();
+	    		break;
+    		case 3:
+    	        // project page
+    			mTabHost.clearAllTabs();
+    	        createProjectPage();
+    	        break;
+    	
+    	}
         // update the main content by replacing fragments
        
         //switch fragments by category

@@ -20,6 +20,11 @@
     <string name="tab_my">Мои проекты</string>
     <string name="tab_fav">Вишлист</string>
     <string name="tab1_fragment_string">TAB CONTENT</string>
+
+
+    <string name="tab_new">НОВЫЕ</string>
+    <string name="tab_my_project">МОИ ПРОЕКТЫ</string>
+    <string name="tab_my_deposit">МОИ ВКЛАДЫ</string>
     
     
 </resources>

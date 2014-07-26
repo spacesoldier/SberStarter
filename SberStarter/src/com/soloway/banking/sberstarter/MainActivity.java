@@ -2,16 +2,22 @@ package com.soloway.banking.sberstarter;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.widget.DrawerLayout;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 
 public class MainActivity extends FragmentActivity
@@ -31,7 +37,6 @@ public class MainActivity extends FragmentActivity
     private Fragment fragmentTabAll = new FragmentTabAll();
     private Fragment fragmentTabMy = new FragmentTabMy();
     private Fragment fragmentTabFav = new FragmentTabFav();
-    private Fragment fragmentProjectDescr = new FragmentProjectDescr();
  
 
     @Override
@@ -42,16 +47,13 @@ public class MainActivity extends FragmentActivity
         mTabHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
         mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
 
-        mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator("Все"),
+        mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.tab_new)),
         		FragmentTabAll.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator("Мои проекты"),
+        mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator(getResources().getString(R.string.tab_my_project)),
         		FragmentTabMy.class, null);
-        mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator("Закладки"),
+        mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
         		FragmentTabFav.class, null);
-        
-        mTabHost.addTab(mTabHost.newTabSpec("tab4").setIndicator("TEST"),
-        		FragmentProjectDescr.class, null);
-        
+
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();

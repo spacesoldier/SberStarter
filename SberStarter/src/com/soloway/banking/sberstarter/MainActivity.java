@@ -1,42 +1,53 @@
 package com.soloway.banking.sberstarter;
 
-import android.app.Activity;
-
 import android.app.ActionBar;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
+import android.app.Activity;
 import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTabHost;
+import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
+    private FragmentTabHost mTabHost;
 
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    
+    private Fragment fragmentTabAll = new FragmentTabAll();
+    private Fragment fragmentTabMy = new FragmentTabMy();
+    private Fragment fragmentTabFav = new FragmentTabFav();
+ 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mTabHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
+        mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
+
+        mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator("Все"),
+        		FragmentTabAll.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator("Мои проекты"),
+        		FragmentTabMy.class, null);
+        mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator("Закладки"),
+        		FragmentTabFav.class, null);
+        
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -53,45 +64,12 @@ public class MainActivity extends Activity
        
         //switch fragments by category
         
-        Fragment fragment = new CategoryFragment();
-        FragmentManager fragmentManager = getFragmentManager();
-        switch(position) {
-	        case 0:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 1:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 2:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 3:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 4:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 5:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 6:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 7:
-	            fragment = new CategoryFragment();
-	            break;
-	        case 8:
-	            fragment = new CategoryFragment();
-	            break;
-        }
+       // Fragment fragment = new CategoryFragment();
+/*
         fragmentManager.beginTransaction()
-            .replace(R.id.container, fragment)
-            .commit();
-        
-        /*fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                .commit();*/
-    }
+                .commit();
+*/    }
 
     public void onSectionAttached(int number) {
         switch (number) {

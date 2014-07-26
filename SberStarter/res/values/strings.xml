@@ -19,5 +19,7 @@
     <string name="tab_all">Все</string>
     <string name="tab_my">Мои проекты</string>
     <string name="tab_fav">Вишлист</string>
+    <string name="tab1_fragment_string">TAB CONTENT</string>
+    
     
 </resources>

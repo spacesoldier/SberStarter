@@ -16,5 +16,8 @@
     <string name="title_section8">Экология</string>
     <string name="title_section9">Разное</string>
     <string name="menu_title">Категории</string>
+    <string name="tab_all">Все</string>
+    <string name="tab_my">Мои проекты</string>
+    <string name="tab_fav">Вишлист</string>
     
 </resources>

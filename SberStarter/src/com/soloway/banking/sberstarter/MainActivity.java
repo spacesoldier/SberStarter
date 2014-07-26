@@ -50,14 +50,47 @@ public class MainActivity extends Activity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
-        FragmentManager fragmentManager = getFragmentManager();
-        
+       
         //switch fragments by category
         
-        
+        Fragment fragment = new CategoryFragment();
+        FragmentManager fragmentManager = getFragmentManager();
+        switch(position) {
+	        case 0:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 1:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 2:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 3:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 4:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 5:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 6:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 7:
+	            fragment = new CategoryFragment();
+	            break;
+	        case 8:
+	            fragment = new CategoryFragment();
+	            break;
+        }
         fragmentManager.beginTransaction()
+            .replace(R.id.container, fragment)
+            .commit();
+        
+        /*fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
-                .commit();
+                .commit();*/
     }
 
     public void onSectionAttached(int number) {

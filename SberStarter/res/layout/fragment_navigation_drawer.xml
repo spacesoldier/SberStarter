@@ -6,6 +6,7 @@
     android:choiceMode="singleChoice"
     android:divider="#FFFFFF"
     android:dividerHeight="1dp"
+    style="@style/WhiteFont.Sberstyle"
 
     tools:context="com.soloway.banking.sberstarter.NavigationDrawerFragment" />
 

@@ -110,6 +110,7 @@ public class MainActivity extends FragmentActivity
     @Override
     public void onNavigationDrawerItemSelected(int position) {
     	
+    	/*
     	switch (position){
 	    	case 1:
 	    		mDescrHost.clearAllTabs();
@@ -122,6 +123,7 @@ public class MainActivity extends FragmentActivity
     	        break;
 
     	}
+    	*/
         // update the main content by replacing fragments
        
         //switch fragments by category

@@ -12,13 +12,105 @@
               android:id="@+id/title"
               android:layout_below="@+id/image"
               android:gravity="center"
+              android:textSize="18sp"
+              android:textColor="@android:color/black"
               android:layout_marginTop="10dp"
               android:layout_centerHorizontal="true"
               android:layout_height="wrap_content"/>
     <SeekBar android:layout_width="match_parent"
              android:id="@+id/progress"
+             android:thumb="@null"
+             android:background="@android:color/transparent"
+             android:progressDrawable="@drawable/progress_style"
              android:layout_marginTop="10dp"
              android:layout_below="@+id/title"
-             android:layout_height="wrap_content"/>
+             android:layout_height="5dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/collectedMoney"
+              android:layout_below="@+id/progress"
+              android:gravity="center"
+              android:textSize="18sp"
+              android:textColor="@color/sberstartertheme_color"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/collectedLabel"
+              android:layout_below="@+id/collectedMoney"
+              android:gravity="center"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/collected"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <View android:layout_width="1dp"
+          android:id="@+id/centr"
+          android:visibility="visible"
+          android:layout_centerInParent="true"
+          android:layout_height="1dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/needMoney"
+              android:layout_below="@+id/progress"
+              android:gravity="center"
+              android:textSize="18sp"
+              android:layout_toRightOf="@+id/centr"
+              android:textColor="@android:color/black"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/needMoneyLabel"
+              android:layout_below="@+id/needMoney"
+              android:layout_toRightOf="@+id/centr"
+              android:gravity="center"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/need"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/members"
+              android:layout_below="@+id/collectedLabel"
+              android:gravity="center"
+              android:textSize="18sp"
+              android:textColor="@android:color/black"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/membersLabel"
+              android:layout_below="@+id/members"
+              android:gravity="center"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/members"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/days"
+              android:layout_below="@+id/needMoneyLabel"
+              android:gravity="center"
+              android:textSize="18sp"
+              android:layout_toRightOf="@+id/centr"
+              android:textColor="@android:color/black"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="40dp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:id="@+id/daysLabel"
+              android:layout_below="@+id/days"
+              android:layout_toRightOf="@+id/centr"
+              android:gravity="center"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/end"
+              android:layout_marginLeft="40dp"
+              android:paddingBottom="10dp"
+              android:layout_height="wrap_content"/>
 
 </RelativeLayout>

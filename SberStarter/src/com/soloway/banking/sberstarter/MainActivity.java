@@ -90,9 +90,9 @@ public class MainActivity extends FragmentActivity
         mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.tab_new)),
         		FragmentTabAll.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator(getResources().getString(R.string.tab_my_project)),
-        		FragmentTabMy.class, null);
+                FragmentTabAll.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
-        		FragmentTabFav.class, null);
+                FragmentTabAll.class, null);
 	}
 
     @Override

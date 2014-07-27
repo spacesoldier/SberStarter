@@ -28,6 +28,15 @@
 
     <string name="category_title_1">Сбор средств на запись \n нового альбома Empire</string>
     <string name="category_title_2">Ремастеринг бутлегов, демо \n и бисайдов Nirvana</string>
+
+
+    <string name="collected">собрано</string>
+    <string name="need">необходимо</string>
+    <string name="members">участников</string>
+    <string name="end">до окончания</string>
+
+    <string name="P">Р</string>
+    <string name="dnya">дня</string>
     
     <string name="tab_about">Проект</string>
     <string name="tab_author">Автор</string>

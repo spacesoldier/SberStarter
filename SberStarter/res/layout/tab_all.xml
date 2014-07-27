@@ -6,11 +6,11 @@
         tools:context=".DeviceFragment" >
     <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/listView"
             android:background="@android:color/white"
             android:dividerHeight="40dp"
-            android:divider="#e4e4e4"
+            android:divider="@color/list_background_color"
             android:scrollingCache="false"
             android:animationCache="false"
             android:smoothScrollbar="true"

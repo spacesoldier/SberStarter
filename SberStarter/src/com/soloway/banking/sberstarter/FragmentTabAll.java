@@ -34,30 +34,37 @@ public class FragmentTabAll extends Fragment implements AdapterView.OnItemClickL
         super.onResume();
         if (adapter.isEmpty()) {
             initData();
-            adapter.notifyDataSetChanged();
         }
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+        // TODO redirect to  project details
     }
 
-    private void initData(){
+    private void initData() {
         CategoryData categoryData;
-        categoryData = new CategoryData(R.drawable.kasabian, getResources().getString(R.string.category_title_1));
+        categoryData = new CategoryData(R.drawable.kasabian, getResources().getString(R.string.category_title_1), 350475, 600000, 630, 44);
         data.add(categoryData);
-        categoryData = new CategoryData(R.drawable.nirvana, getResources().getString(R.string.category_title_2));
+        categoryData = new CategoryData(R.drawable.nirvana, getResources().getString(R.string.category_title_2), 44475, 50000, 96, 23);
         data.add(categoryData);
     }
 
     public class CategoryData {
         public int imageResources;
         public String title;
+        public int collectedMoney;
+        public int needMoney;
+        public int membersCount;
+        public int daysCount;
 
-        public CategoryData(int image, String title) {
-            this.imageResources = image;
+        public CategoryData(int imageResources, String title, int collectedMoney, int needMoney, int membersCount, int daysCount) {
+            this.imageResources = imageResources;
             this.title = title;
+            this.collectedMoney = collectedMoney;
+            this.needMoney = needMoney;
+            this.membersCount = membersCount;
+            this.daysCount = daysCount;
         }
     }
 }

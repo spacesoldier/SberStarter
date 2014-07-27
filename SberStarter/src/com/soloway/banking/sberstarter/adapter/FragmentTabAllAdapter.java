@@ -3,7 +3,7 @@ package com.soloway.banking.sberstarter.adapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import com.soloway.banking.sberstarter.FragmentTabAll;
+import com.soloway.banking.sberstarter.categoryFragments.FragmentTabAll;
 import com.soloway.banking.sberstarter.view.FragmentTabAllView;
 
 import java.util.List;
@@ -13,10 +13,12 @@ import java.util.List;
  */
 public class FragmentTabAllAdapter extends BaseAdapter {
 
-    private List<FragmentTabAll.CategoryData> data;
+    private List<FragmentTabAll.ProjectData> data;
+    private View.OnClickListener onClickListener;
 
-    public FragmentTabAllAdapter(List<FragmentTabAll.CategoryData> data) {
+    public FragmentTabAllAdapter(List<FragmentTabAll.ProjectData> data, View.OnClickListener onClickListener) {
         this.data = data;
+        this.onClickListener = onClickListener;
     }
 
     @Override
@@ -25,7 +27,7 @@ public class FragmentTabAllAdapter extends BaseAdapter {
     }
 
     @Override
-    public FragmentTabAll.CategoryData getItem(int i) {
+    public FragmentTabAll.ProjectData getItem(int i) {
         return data.get(i);
     }
 
@@ -36,10 +38,10 @@ public class FragmentTabAllAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
-        FragmentTabAll.CategoryData categoryData = getItem(position);
+        FragmentTabAll.ProjectData projectData = getItem(position);
         FragmentTabAllView view = (convertView == null) ? new FragmentTabAllView(viewGroup.getContext()) : (FragmentTabAllView) convertView;
-//        view.setPosition(position);
-        view.bindData(categoryData);
+        view.setPosition(position);
+        view.bindData(projectData,onClickListener);
         return view;
     }
 }

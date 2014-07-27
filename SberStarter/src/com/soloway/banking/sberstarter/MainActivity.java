@@ -2,23 +2,20 @@ package com.soloway.banking.sberstarter;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.FragmentManager;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.widget.DrawerLayout;
-import android.text.Spannable;
-import android.text.SpannableStringBuilder;
-import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+import com.soloway.banking.sberstarter.categoryFragments.FragmentTabAll;
+import com.soloway.banking.sberstarter.categoryFragments.FragmentTabFav;
+import com.soloway.banking.sberstarter.categoryFragments.FragmentTabMy;
+import com.soloway.banking.sberstarter.detailsFragments.*;
 
 
 public class MainActivity extends FragmentActivity
@@ -45,20 +42,21 @@ public class MainActivity extends FragmentActivity
     private Fragment fragmentProjectAuthor = new FragmentProjectAuthor();
     private Fragment fragmentProjectDiscuss = new FragmentProjectDiscuss();
     private Fragment fragmentProjectFund = new FragmentProjectFund();
-    
-    private Fragment fragmentProjectDescr = new FragmentProjectDescr();
- 
+
+
+    public static MainActivity newInstance() {
+        MainActivity mainActivity = new MainActivity ();
+        return mainActivity ;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
+        Manager.setMainActivity(this);
         createProjectList();
 
-
-
-        
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -69,8 +67,9 @@ public class MainActivity extends FragmentActivity
                 (DrawerLayout) findViewById(R.id.drawer_layout));
     }
 
-	private void createProjectPage() {
+    public void createProjectPage() {
 		mDescrHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
+        mDescrHost.clearAllTabs();
         mDescrHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
         mDescrHost.addTab(mDescrHost.newTabSpec("about").setIndicator(getResources().getString(R.string.tab_about)),
         		FragmentProjectAbout.class, null);
@@ -88,7 +87,7 @@ public class MainActivity extends FragmentActivity
         mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
 
         mTabHost.addTab(mTabHost.newTabSpec("tab1").setIndicator(getResources().getString(R.string.tab_new)),
-        		FragmentTabAll.class, null);
+                FragmentTabAll.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab2").setIndicator(getResources().getString(R.string.tab_my_project)),
                 FragmentTabAll.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
@@ -108,7 +107,7 @@ public class MainActivity extends FragmentActivity
     			mTabHost.clearAllTabs();
     	        createProjectPage();
     	        break;
-    	
+
     	}
         // update the main content by replacing fragments
        

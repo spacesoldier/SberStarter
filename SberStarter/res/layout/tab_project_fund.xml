@@ -1,11 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tab1_fragment_string" />    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                tools:context=".DeviceFragment">
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:paddingBottom="15dp"
+                        android:layout_height="wrap_content">
+            <View android:layout_width="match_parent"
+                  android:id="@+id/image"
+                  android:scaleType="centerInside"
+                  android:layout_height="230dp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/title"
+                      android:layout_below="@+id/image"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:textColor="@android:color/black"
+                      android:layout_marginTop="10dp"
+                      android:layout_centerHorizontal="true"
+                      android:layout_height="wrap_content"/>
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/info"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/title"
+                            android:layout_height="wrap_content">
+                <View android:layout_width="13dp"
+                      android:id="@+id/locationIcon"
+                      android:background="@drawable/location"
+                      android:layout_height="18dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:id="@+id/location"
+                          android:gravity="center"
+                          android:layout_marginLeft="7dp"
+                          android:layout_toRightOf="@+id/locationIcon"
+                          android:layout_height="wrap_content"/>
+                <View android:layout_width="16dp"
+                      android:id="@+id/tyIcon"
+                      android:layout_marginLeft="10dp"
+                      android:layout_toRightOf="@+id/location"
+                      android:background="@drawable/type"
+                      android:layout_height="18dp"/>
+                <TextView android:layout_width="wrap_content"
+                          android:id="@+id/type"
+                          android:gravity="center"
+                          android:layout_marginLeft="5dp"
+                          android:layout_toRightOf="@+id/tyIcon"
+                          android:layout_height="wrap_content"/>
+            </RelativeLayout>
 
-</LinearLayout>
+            <SeekBar android:layout_width="match_parent"
+                     android:id="@+id/progress"
+                     android:thumb="@null"
+                     android:background="@android:color/transparent"
+                     android:progressDrawable="@drawable/progress_style"
+                     android:layout_marginTop="15dp"
+                     android:layout_below="@+id/info"
+                     android:layout_height="5dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/collectedMoney"
+                      android:layout_below="@+id/progress"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:textColor="@color/sberstartertheme_color"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/collectedLabel"
+                      android:layout_below="@+id/collectedMoney"
+                      android:gravity="center"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/collected"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <View android:layout_width="1dp"
+                  android:id="@+id/centr"
+                  android:visibility="visible"
+                  android:layout_centerInParent="true"
+                  android:layout_height="1dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/needMoney"
+                      android:layout_below="@+id/progress"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:layout_toRightOf="@+id/centr"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/needMoneyLabel"
+                      android:layout_below="@+id/needMoney"
+                      android:layout_toRightOf="@+id/centr"
+                      android:gravity="center"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/need"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/members"
+                      android:layout_below="@+id/collectedLabel"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/membersLabel"
+                      android:layout_below="@+id/members"
+                      android:gravity="center"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/members"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/days"
+                      android:layout_below="@+id/needMoneyLabel"
+                      android:gravity="center"
+                      android:textSize="18sp"
+                      android:layout_toRightOf="@+id/centr"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginLeft="40dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/daysLabel"
+                      android:layout_below="@+id/days"
+                      android:layout_toRightOf="@+id/centr"
+                      android:gravity="center"
+                      android:textColor="@android:color/darker_gray"
+                      android:text="@string/end"
+                      android:layout_marginLeft="40dp"
+                      android:paddingBottom="10dp"
+                      android:layout_height="wrap_content"/>
+
+            <View android:layout_width="match_parent"
+                  android:id="@+id/separator"
+                  android:layout_below="@+id/daysLabel"
+                  android:background="@android:color/darker_gray"
+                  android:layout_height="1dp"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:id="@+id/variantLabel"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="10dp"
+                      android:text="@string/variant"
+                      android:textSize="18dp"
+                      android:layout_below="@id/separator"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/iTunesButton"
+                      android:gravity="center_vertical"
+                      android:paddingLeft="15dp"
+                      android:layout_below="@id/variantLabel"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="15dp"
+                      android:clickable="true"
+                      android:layout_marginRight="15dp"
+                      android:background="@drawable/button_bg_selector"
+                      android:text="@string/label_100_P"
+                      android:textSize="18dp"
+                      android:layout_height="40dp"/>
+
+            <ImageView android:layout_width="wrap_content"
+                  android:layout_below="@id/variantLabel"
+                  android:layout_alignParentRight="true"
+                  android:id="@+id/iTunesButtonArrow"
+                  android:layout_marginTop="25dp"
+                  android:layout_marginRight="35dp"
+                  android:src="@drawable/vertical_arrow"
+                  android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/cdButton"
+                      android:gravity="center_vertical"
+                      android:paddingLeft="15dp"
+                      android:layout_below="@id/iTunesButton"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginRight="15dp"
+                      android:clickable="true"
+                      android:background="@drawable/button_bg_selector"
+                      android:text="@string/label_100_P"
+                      android:textSize="18dp"
+                      android:layout_height="40dp"/>
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_below="@id/iTunesButton"
+                       android:layout_alignParentRight="true"
+                       android:id="@+id/cdButtonArrow"
+                       android:layout_marginTop="25dp"
+                       android:layout_marginRight="35dp"
+                       android:src="@drawable/vertical_arrow"
+                       android:layout_height="wrap_content"/>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:id="@+id/choice"
+                            android:visibility="gone"
+                            android:layout_below="@id/cdButton"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="35dp"
+                            android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent"
+                          android:id="@+id/choiceText"
+                          android:text="@string/choice_text"
+                          android:layout_height="wrap_content"/>
+
+                <Button android:layout_width="match_parent"
+                        android:layout_below="@id/choiceText"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/take"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="18dp"
+                        android:background="@drawable/take_bg_selector"
+                        android:layout_height="40dp"/>
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/vinilButton"
+                      android:gravity="center_vertical"
+                      android:paddingLeft="15dp"
+                      android:layout_below="@id/choice"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginRight="15dp"
+                      android:clickable="true"
+                      android:background="@drawable/button_bg_selector"
+                      android:text="@string/label_100_P"
+                      android:textSize="18dp"
+                      android:layout_height="40dp"/>
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_below="@id/choice"
+                       android:layout_alignParentRight="true"
+                       android:id="@+id/vinilButtonArrow"
+                       android:layout_marginTop="25dp"
+                       android:layout_marginRight="35dp"
+                       android:src="@drawable/vertical_arrow"
+                       android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:id="@+id/tshirtButton"
+                      android:gravity="center_vertical"
+                      android:paddingLeft="15dp"
+                      android:layout_below="@id/vinilButton"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginRight="15dp"
+                      android:clickable="true"
+                      android:background="@drawable/button_bg_selector"
+                      android:text="@string/label_100_P"
+                      android:textSize="18dp"
+                      android:layout_height="40dp"/>
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_below="@id/vinilButton"
+                       android:layout_alignParentRight="true"
+                       android:id="@+id/tshirtButtonArrow"
+                       android:layout_marginTop="25dp"
+                       android:layout_marginRight="35dp"
+                       android:src="@drawable/vertical_arrow"
+                       android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -16,9 +16,15 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/res/layout/category_layout.xml">
+      <layout url="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
         <config>
           <device>Nexus 4</device>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/tab_project_fund.xml">
+        <config>
+          <device>Nexus 7 2013</device>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
@@ -26,15 +32,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65c56e79-c010-4e11-995b-3825c221a4a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/progress_style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/FragmentTabAll.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/FragmentTabAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/horizontal_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/kasabian_author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/location.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/nirvana_author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/type.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/vertical_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_bg_selected.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_bg_selector.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/take_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/take_bg_selected.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/take_bg_selector.xml" />
+      <change type="DELETED" beforePath="D:\android\Workspace\SberStarter\SberStarter\res\drawable-hdpi\conrad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentProjectDescr.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_main.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_all.xml" afterPath="$PROJECT_DIR$/res/layout/tab_all.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml" afterPath="$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_project_about.xml" afterPath="$PROJECT_DIR$/res/layout/tab_project_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_project_author.xml" afterPath="$PROJECT_DIR$/res/layout/tab_project_author.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_project_discuss.xml" afterPath="$PROJECT_DIR$/res/layout/tab_project_discuss.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/tab_project_fund.xml" afterPath="$PROJECT_DIR$/res/layout/tab_project_fund.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentProjectAbout.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAbout.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentProjectAuthor.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentProjectDiscuss.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectDiscuss.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentProjectFund.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectFund.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentTabAll.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabAll.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentTabFav.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabFav.java" />
+      <change type="MOVED" beforePath="D:\android\Workspace\SberStarter\SberStarter\src\com\soloway\banking\sberstarter\FragmentTabMy.java" afterPath="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabMy.java" />
     </list>
     <ignored path="SberStarter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,68 +128,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java">
+      <file leaf-file-name="FragmentProjectFund.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectFund.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="44" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="3689">
+            <state line="17" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2924">
               <folding>
-                <element signature="e#2633#2677#0" expanded="true" />
-                <element signature="e#2796#2841#0" expanded="true" />
-                <element signature="e#2962#3008#0" expanded="true" />
-                <element signature="e#3127#3170#0" expanded="true" />
-                <element signature="e#3493#3535#0" expanded="true" />
-                <element signature="e#3642#3691#0" expanded="true" />
-                <element signature="e#3804#3853#0" expanded="true" />
-                <element signature="e#4686#4720#0" expanded="true" />
-                <element signature="e#4781#4815#0" expanded="true" />
-                <element signature="e#4876#4910#0" expanded="true" />
-                <element signature="e#4971#5005#0" expanded="true" />
-                <element signature="e#5066#5100#0" expanded="true" />
-                <element signature="e#5161#5195#0" expanded="true" />
-                <element signature="e#5256#5290#0" expanded="true" />
-                <element signature="e#5351#5385#0" expanded="true" />
-                <element signature="e#5446#5480#0" expanded="true" />
+                <element signature="e#3751#3787#0" expanded="true" />
+                <element signature="e#3862#3898#0" expanded="true" />
+                <element signature="e#4035#4074#0" expanded="true" />
+                <element signature="e#4211#4242#0" expanded="true" />
+                <element signature="e#4244#4277#0" expanded="true" />
+                <element signature="e#4323#4354#0" expanded="true" />
+                <element signature="e#4356#4385#0" expanded="true" />
+                <element signature="e#4434#4465#0" expanded="true" />
+                <element signature="e#4467#4499#0" expanded="true" />
+                <element signature="e#4549#4581#0" expanded="true" />
+                <element signature="e#4583#4616#0" expanded="true" />
+                <element signature="e#6263#8056#0" expanded="true" />
+                <element signature="e#8049#8050#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentTabAll.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/FragmentTabAll.java">
+      <file leaf-file-name="FragmentProjectAuthor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="49" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.7433198" vertical-offset="0" max-vertical-offset="1235">
+            <state line="70" column="68" selection-start="2945" selection-end="2945" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1785">
               <folding>
-                <element signature="e#566#580#0" expanded="true" />
-                <element signature="e#1499#1550#0" expanded="true" />
-                <element signature="e#1670#1721#0" expanded="true" />
+                <element signature="e#3186#4645#0" expanded="true" />
+                <element signature="e#4638#4639#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentTabAllView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
+      <file leaf-file-name="tab_project_author.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="58" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1462">
+            <state line="125" column="61" selection-start="6513" selection-end="6513" vertical-scroll-proportion="-33.44" vertical-offset="1289" max-vertical-offset="2550">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1819#1855#0" expanded="true" />
-                <element signature="e#1931#1967#0" expanded="true" />
-                <element signature="e#2106#2145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_all_list_item_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="37" selection-start="4309" selection-end="4309" vertical-scroll-proportion="-11.64" vertical-offset="1358" max-vertical-offset="2057">
-              <folding>
-                <element signature="e#2035#2054#0" expanded="true" />
-                <element signature="e#3156#3170#0" expanded="true" />
-                <element signature="e#3970#3987#0" expanded="true" />
-                <element signature="e#4882#4895#0" expanded="true" />
+                <element signature="e#2268#2281#0" expanded="true" />
+                <element signature="e#4156#4174#0" expanded="true" />
+                <element signature="e#5351#5369#0" expanded="true" />
+                <element signature="e#6971#6984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,31 +180,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab_all.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/tab_all.xml">
+      <file leaf-file-name="FragmentTabAll.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="408">
-              <folding />
+            <state line="42" column="74" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+              <folding>
+                <element signature="e#1957#2002#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="35" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationDrawerFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/NavigationDrawerFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4556">
+            <state line="22" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.1792144" vertical-offset="155" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -212,18 +214,36 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/ProjectListFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_navigation_drawer.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/drawable/progress_style.xml" />
-        <option value="$PROJECT_DIR$/res/layout/tab_all.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java" />
         <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/FragmentTabAll.java" />
-        <option value="$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tab_all.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectDescr.java" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentProjectAboutAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/Manager.java" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/tab_project_about.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAbout.java" />
+        <option value="$PROJECT_DIR$/res/drawable/button_bg.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/button_bg_selector.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/button_bg_selected.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/take_bg.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/take_bg_selected.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/take_bg_selector.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectFund.java" />
+        <option value="$PROJECT_DIR$/res/layout/tab_project_fund.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tab_project_discuss.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectDiscuss.java" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabAll.java" />
+        <option value="$PROJECT_DIR$/res/layout/tab_project_author.xml" />
+        <option value="$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -339,6 +359,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="detailsFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SberStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SberStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sberstarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categoryFragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SberStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SberStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sberstarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="adapter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -393,24 +457,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SberStarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SberStarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -425,17 +471,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.102:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -684,6 +733,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -706,12 +760,13 @@
       <changelist id="65c56e79-c010-4e11-995b-3825c221a4a4" name="Default" comment="" />
       <created>1406407358650</created>
       <updated>1406407358650</updated>
-      <workItem from="1406407362187" duration="16720000" />
+      <workItem from="1406407362187" duration="27185000" />
+      <workItem from="1406436408119" duration="5838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16720000" />
+    <option name="totallyTimeSpent" value="33023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -719,32 +774,32 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2466243" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39809674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40523395" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22239873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2466243" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39809674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40523395" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831088" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -769,6 +824,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="32" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectFund.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="66" selection-start="2941" selection-end="2941" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2159">
+          <folding>
+            <element signature="e#3751#3787#0" expanded="true" />
+            <element signature="e#3862#3898#0" expanded="true" />
+            <element signature="e#4035#4074#0" expanded="true" />
+            <element signature="e#4211#4242#0" expanded="true" />
+            <element signature="e#4244#4277#0" expanded="true" />
+            <element signature="e#4323#4354#0" expanded="true" />
+            <element signature="e#4356#4385#0" expanded="true" />
+            <element signature="e#4434#4465#0" expanded="true" />
+            <element signature="e#4467#4499#0" expanded="true" />
+            <element signature="e#4549#4581#0" expanded="true" />
+            <element signature="e#4583#4616#0" expanded="true" />
+            <element signature="e#6263#8056#0" expanded="true" />
+            <element signature="e#8049#8050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_fund.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="0" selection-start="11964" selection-end="11964" vertical-scroll-proportion="0.0" vertical-offset="2853" max-vertical-offset="4097">
+          <folding>
+            <element signature="e#4300#4319#0" expanded="true" />
+            <element signature="e#5550#5564#0" expanded="true" />
+            <element signature="e#6437#6454#0" expanded="true" />
+            <element signature="e#7438#7451#0" expanded="true" />
+            <element signature="e#8152#8169#0" expanded="true" />
+            <element signature="e#8934#8955#0" expanded="true" />
+            <element signature="e#10094#10115#0" expanded="true" />
+            <element signature="e#11332#11353#0" expanded="true" />
+            <element signature="e#11635#11649#0" expanded="true" />
+            <element signature="e#12560#12581#0" expanded="true" />
+            <element signature="e#13751#13772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#1957#2002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="30" selection-start="3188" selection-end="3188" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/take_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="55" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1734">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="55" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/NavigationDrawerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="13" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4556">
@@ -778,41 +922,22 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../sdk/platforms/android-19/android.jar!/android/view/ContextThemeWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="594" selection-end="674" vertical-scroll-proportion="0.19271255" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
+        <state line="15" column="41" selection-start="594" selection-end="674" vertical-scroll-proportion="0.19271255" vertical-offset="0" max-vertical-offset="1235" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../sdk/platforms/android-19/data/res/values/ids.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.33279353" vertical-offset="235" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="586" selection-end="586" vertical-scroll-proportion="0.24129032" vertical-offset="0" max-vertical-offset="775">
-          <folding>
-            <element signature="e#233#266#0" expanded="false" />
-            <element signature="e#291#326#0" expanded="false" />
-            <element signature="e#352#387#0" expanded="false" />
-            <element signature="e#411#444#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+        <state line="38" column="24" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.33279353" vertical-offset="235" max-vertical-offset="1547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment_navigation_drawer.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.25073746" vertical-offset="0" max-vertical-offset="678">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
@@ -836,16 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="36" selection-start="1273" selection-end="1280" vertical-scroll-proportion="0.31157026" vertical-offset="150" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="38" selection-start="68" selection-end="89" vertical-scroll-proportion="0.041312274" vertical-offset="0" max-vertical-offset="823">
@@ -860,66 +975,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="54" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="867">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/tab_all.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="35" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../sdk/platforms/android-19/android.jar!/java/util/Locale.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.06882591" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="158" selection-end="158" vertical-scroll-proportion="0.06882591" vertical-offset="0" max-vertical-offset="1428" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../sdk/platforms/android-19/android.jar!/java/text/NumberFormat.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.33279353" vertical-offset="252" max-vertical-offset="1836">
+        <state line="40" column="41" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.33279353" vertical-offset="252" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_project_descr.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_all.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="794" selection-end="794" vertical-scroll-proportion="-12.24" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../sdk/platforms/android-19/android.jar!/android/widget/TabHost.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.33279353" vertical-offset="31" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="392" selection-end="392" vertical-scroll-proportion="0.20058997" vertical-offset="0" max-vertical-offset="678">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors_sberstartertheme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/FragmentTabAllAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="29" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="66" selection-start="545" selection-end="545" vertical-scroll-proportion="0.26153848" vertical-offset="0" max-vertical-offset="1235">
+          <folding>
+            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#437#438#0" expanded="false" />
+            <element signature="e#476#477#0" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="32" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="3723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="51" selection-start="4251" selection-end="4251" vertical-scroll-proportion="0.68544996" vertical-offset="817" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="59" selection-start="8000" selection-end="8000" vertical-scroll-proportion="0.8033058" vertical-offset="1663" max-vertical-offset="2873">
+          <folding>
+            <element signature="e#4247#4266#0" expanded="false" />
+            <element signature="e#5497#5511#0" expanded="false" />
+            <element signature="e#6384#6401#0" expanded="false" />
+            <element signature="e#7385#7398#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="58" selection-start="2958" selection-end="2958" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1462">
+        <state line="53" column="55" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="159" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="80" selection-start="0" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_bg_selected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="70" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/take_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="0" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/take_bg_selected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="56" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_bg_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="0" selection-end="311" vertical-scroll-proportion="0.05506073" vertical-offset="0" max-vertical-offset="1235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/take_bg_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="45" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/horizontal_arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_discuss.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="229" selection-end="229" vertical-scroll-proportion="0.056198347" vertical-offset="0" max-vertical-offset="1210">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="66" selection-end="66" vertical-scroll-proportion="0.027530365" vertical-offset="0" max-vertical-offset="1734">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1819#1855#0" expanded="true" />
-            <element signature="e#1931#1967#0" expanded="true" />
-            <element signature="e#2106#2145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/tab_all_list_item_layout.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectFund.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="37" selection-start="4309" selection-end="4309" vertical-scroll-proportion="-11.64" vertical-offset="1358" max-vertical-offset="2057">
+        <state line="17" column="0" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2924">
           <folding>
-            <element signature="e#2035#2054#0" expanded="true" />
-            <element signature="e#3156#3170#0" expanded="true" />
-            <element signature="e#3970#3987#0" expanded="true" />
-            <element signature="e#4882#4895#0" expanded="true" />
+            <element signature="e#3751#3787#0" expanded="true" />
+            <element signature="e#3862#3898#0" expanded="true" />
+            <element signature="e#4035#4074#0" expanded="true" />
+            <element signature="e#4211#4242#0" expanded="true" />
+            <element signature="e#4244#4277#0" expanded="true" />
+            <element signature="e#4323#4354#0" expanded="true" />
+            <element signature="e#4356#4385#0" expanded="true" />
+            <element signature="e#4434#4465#0" expanded="true" />
+            <element signature="e#4467#4499#0" expanded="true" />
+            <element signature="e#4549#4581#0" expanded="true" />
+            <element signature="e#4583#4616#0" expanded="true" />
+            <element signature="e#6263#8056#0" expanded="true" />
+            <element signature="e#8049#8050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_fund.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="0" selection-start="0" selection-end="14413" vertical-scroll-proportion="-11.0" vertical-offset="3108" max-vertical-offset="4879">
+          <folding>
+            <element signature="e#4300#4319#0" expanded="true" />
+            <element signature="e#5550#5564#0" expanded="true" />
+            <element signature="e#6437#6454#0" expanded="true" />
+            <element signature="e#7438#7451#0" expanded="true" />
+            <element signature="e#8152#8169#0" expanded="true" />
+            <element signature="e#8934#8955#0" expanded="true" />
+            <element signature="e#10094#10115#0" expanded="true" />
+            <element signature="e#11332#11353#0" expanded="true" />
+            <element signature="e#11635#11649#0" expanded="true" />
+            <element signature="e#12560#12581#0" expanded="true" />
+            <element signature="e#13751#13772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectDiscuss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="61" selection-start="6513" selection-end="6513" vertical-scroll-proportion="-33.44" vertical-offset="1289" max-vertical-offset="2550">
+          <folding>
+            <element signature="e#2268#2281#0" expanded="true" />
+            <element signature="e#4156#4174#0" expanded="true" />
+            <element signature="e#5351#5369#0" expanded="true" />
+            <element signature="e#6971#6984#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,38 +1231,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable/kasabian_author.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/categoryFragments/FragmentTabAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="44" selection-start="3900" selection-end="3900" vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="3689">
+        <state line="42" column="74" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
           <folding>
-            <element signature="e#2633#2677#0" expanded="true" />
-            <element signature="e#2796#2841#0" expanded="true" />
-            <element signature="e#2962#3008#0" expanded="true" />
-            <element signature="e#3127#3170#0" expanded="true" />
-            <element signature="e#3493#3535#0" expanded="true" />
-            <element signature="e#3642#3691#0" expanded="true" />
-            <element signature="e#3804#3853#0" expanded="true" />
-            <element signature="e#4686#4720#0" expanded="true" />
-            <element signature="e#4781#4815#0" expanded="true" />
-            <element signature="e#4876#4910#0" expanded="true" />
-            <element signature="e#4971#5005#0" expanded="true" />
-            <element signature="e#5066#5100#0" expanded="true" />
-            <element signature="e#5161#5195#0" expanded="true" />
-            <element signature="e#5256#5290#0" expanded="true" />
-            <element signature="e#5351#5385#0" expanded="true" />
-            <element signature="e#5446#5480#0" expanded="true" />
+            <element signature="e#1957#2002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/FragmentTabAll.java">
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="49" selection-start="2273" selection-end="2273" vertical-scroll-proportion="0.7433198" vertical-offset="0" max-vertical-offset="1235">
+        <state line="70" column="68" selection-start="2945" selection-end="2945" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1785">
           <folding>
-            <element signature="e#566#580#0" expanded="true" />
-            <element signature="e#1499#1550#0" expanded="true" />
-            <element signature="e#1670#1721#0" expanded="true" />
+            <element signature="e#3186#4645#0" expanded="true" />
+            <element signature="e#4638#4639#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.1792144" vertical-offset="155" max-vertical-offset="1377">
+          <folding />
         </state>
       </provider>
     </entry>

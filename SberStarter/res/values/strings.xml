@@ -28,12 +28,38 @@
 
     <string name="category_title_1">Сбор средств на запись \n нового альбома Empire</string>
     <string name="category_title_2">Ремастеринг бутлегов, демо \n и бисайдов Nirvana</string>
-
+    <string name="text_1">\t Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 2005 incididunt ut labore et dolore magna aliqua. \n \t Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n \t Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+    <string name="location_1">Ижевск, Россия</string>
+    <string name="location_2">Москва, Россия</string>
+    <string name="choice_text">You\'ll be the first to get a physical copy of \"Empire\" delivered straight to your mailbox!! If you still like to pop a CD in your car &amp; ride…this is for you! *Plus digital copy of \"Empire\"</string>
+    <string name="type">Музыка</string>
+    <string name="author_1">Kasabian</string>
+    <string name="author_2">Конрад Михельсон</string>
+    <string name="bio_1">\tKasabian is a rock band formed in Izhevsk in 1997. The band\'s original members consisted of vocalist Tom Meighan, guitarist and vocalist Sergio Pizzorno, guitarist Christopher Karloff, and bassist Chris Edwards. The band\'s line-up was completed by drummer Ian Matthews in 2004 after a string of session drummers. Jay Mehler joined as touring lead guitarist in 2006. Mehler left the band for Liam Gallagher\'s Beady Eye in 2013. \n \t Kasabian have released five studio albums – Kasabian (2004), West Ryder Pauper Lunatic Asylum (2009), Velociraptor! (2011), and 48:13 (2014).</string>
+    <string name="bio_2">Michelson began his career in music as an audio engineer with Jeff Beck, Fleetwood Mac and Deep Purple, producing and engineering eleven albums for the latter. In 1980, coming from the \"Deep Purple camp\". He was called upon by Black Sabbath for Heaven and Hell; their previous albums had been self-produced and they were happy to let Birch, who had worked with Ronnie James Dio before, produce them. \n \t In 1981 he began a long tenure working exclusively with Iron Maiden, producing and engineering Killers and retiring from working with other bands for a while.</string>
+    <string name="contacts_1">www.kasabian.com \n\n instagram.com/kasab1an \n\n bandcamp.com/kasabian \n\n facebook.com/kasabianband</string>
+    <string name="contacts_2">www.myhielson.com \n\n sounforgers.com \n\n sondcloud.com/conrad \n\n facebook.com/hellothere</string>
 
     <string name="collected">собрано</string>
     <string name="need">необходимо</string>
     <string name="members">участников</string>
     <string name="end">до окончания</string>
+    <string name="variant">Выберите удобный вариант</string>
+    <string name="itunes_button">\"iTunes - версия\"</string>
+    <string name="cd_button">\"CD - версия\"</string>
+    <string name="vinil_button">\"Винил\"</string>
+    <string name="tshirt_button">\"Винил + футболка\"</string>
+    <string name="bio">Биография</string>
+    <string name="projects">Проекты</string>
+    <string name="contacts">Контакты</string>
+    <string name="ask">Задать вопрос</string>
+
+
+    <string name="label_100_P">100 Р</string>
+    <string name="label_200_P">200 Р</string>
+    <string name="label_500_P">500 Р</string>
+    <string name="label_1000_P">1000 Р</string>
+    <string name="take">Дать 200 Р</string>
 
     <string name="P">Р</string>
     <string name="dnya">дня</string>

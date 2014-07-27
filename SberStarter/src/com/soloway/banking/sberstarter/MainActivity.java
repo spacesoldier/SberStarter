@@ -48,11 +48,6 @@ public class MainActivity extends FragmentActivity
     private boolean onProject = false;
 
 
-    public static MainActivity newInstance() {
-        MainActivity mainActivity = new MainActivity ();
-        return mainActivity ;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

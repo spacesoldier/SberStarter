@@ -100,14 +100,18 @@ public final class R {
         public static final int tab_unselected_sberstyle=0x7f02003c;
     }
     public static final class id {
-        public static final int action_example=0x7f090007;
-        public static final int action_settings=0x7f090006;
+        public static final int action_example=0x7f09000b;
+        public static final int action_settings=0x7f09000a;
         public static final int drawer_layout=0x7f090000;
-        public static final int imageView1=0x7f090004;
-        public static final int imageView2=0x7f090005;
+        public static final int image=0x7f090005;
+        public static final int imageView1=0x7f090008;
+        public static final int imageView2=0x7f090009;
+        public static final int listView=0x7f090004;
         public static final int navigation_drawer=0x7f090002;
+        public static final int progress=0x7f090007;
         public static final int realtabcontent=0x7f090001;
         public static final int section_label=0x7f090003;
+        public static final int title=0x7f090006;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -116,12 +120,13 @@ public final class R {
         public static final int fragment_project_descr=0x7f030003;
         public static final int sberstartertheme_tab_indicator_holo=0x7f030004;
         public static final int tab_all=0x7f030005;
-        public static final int tab_fav=0x7f030006;
-        public static final int tab_my=0x7f030007;
-        public static final int tab_project_about=0x7f030008;
-        public static final int tab_project_author=0x7f030009;
-        public static final int tab_project_discuss=0x7f03000a;
-        public static final int tab_project_fund=0x7f03000b;
+        public static final int tab_all_list_item_layout=0x7f030006;
+        public static final int tab_fav=0x7f030007;
+        public static final int tab_my=0x7f030008;
+        public static final int tab_project_about=0x7f030009;
+        public static final int tab_project_author=0x7f03000a;
+        public static final int tab_project_discuss=0x7f03000b;
+        public static final int tab_project_fund=0x7f03000c;
     }
     public static final class menu {
         public static final int global=0x7f080000;
@@ -131,16 +136,18 @@ public final class R {
         public static final int action_example=0x7f060006;
         public static final int action_settings=0x7f060007;
         public static final int app_name=0x7f060000;
+        public static final int category_title_1=0x7f060016;
+        public static final int category_title_2=0x7f060017;
         public static final int menu_title=0x7f06000e;
         public static final int navigation_drawer_close=0x7f060005;
         public static final int navigation_drawer_open=0x7f060004;
         public static final int tab1_fragment_string=0x7f060012;
-        public static final int tab_about=0x7f060016;
+        public static final int tab_about=0x7f060018;
         public static final int tab_all=0x7f06000f;
-        public static final int tab_author=0x7f060017;
-        public static final int tab_discuss=0x7f060018;
+        public static final int tab_author=0x7f060019;
+        public static final int tab_discuss=0x7f06001a;
         public static final int tab_fav=0x7f060011;
-        public static final int tab_fund=0x7f060019;
+        public static final int tab_fund=0x7f06001b;
         public static final int tab_my=0x7f060010;
         public static final int tab_my_deposit=0x7f060015;
         public static final int tab_my_project=0x7f060014;

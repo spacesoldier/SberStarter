@@ -31,13 +31,7 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65c56e79-c010-4e11-995b-3825c221a4a4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_drawer.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_drawer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_drawer.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_drawer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_drawer.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_drawer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_drawer.png" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_drawer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="65c56e79-c010-4e11-995b-3825c221a4a4" name="Default" comment="" />
     <ignored path="SberStarter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationDrawerFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NavigationDrawerFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/NavigationDrawerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="0" selection-start="8156" selection-end="8156" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="4590">
+            <state line="199" column="0" selection-start="8156" selection-end="8156" vertical-scroll-proportion="2.3813765" vertical-offset="0" max-vertical-offset="4590">
               <folding>
                 <element signature="e#2849#2883#0" expanded="true" />
                 <element signature="e#2901#2935#0" expanded="true" />
@@ -171,10 +165,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DraweListViewAdapter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DraweListViewAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/DraweListViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.91574585" vertical-offset="0" max-vertical-offset="918">
+            <state line="39" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#644#645#0" expanded="true" />
@@ -195,6 +189,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FragmentProjectAuthor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="54" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -207,19 +210,7 @@
       <file leaf-file-name="FragmentTabAllView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="5" selection-start="431" selection-end="2793" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1343">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab_project_author.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="61" selection-start="6513" selection-end="6513" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2550">
+            <state line="27" column="57" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -803,16 +794,16 @@
       <updated>1406407358650</updated>
       <workItem from="1406407362187" duration="27185000" />
       <workItem from="1406436408119" duration="8781000" />
-      <workItem from="1406449090506" duration="3611000" />
+      <workItem from="1406449090506" duration="4863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39577000" />
+    <option name="totallyTimeSpent" value="40829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -830,7 +821,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32672483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40523395" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40523395" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1152,23 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="61" selection-start="6513" selection-end="6513" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="68" selection-start="2945" selection-end="2945" vertical-scroll-proportion="0.36680162" vertical-offset="499" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_drawer.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1222,13 +1196,6 @@
     <entry file="jar://$PROJECT_DIR$/../../../sdk/platforms/android-19/android.jar!/android/widget/AbsListView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="16" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.33306056" vertical-offset="205" max-vertical-offset="5440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="431" selection-end="2793" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
@@ -1287,23 +1254,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/NavigationDrawerFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/tab_project_author.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="0" selection-start="8156" selection-end="8156" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="4590">
-          <folding>
-            <element signature="e#2849#2883#0" expanded="true" />
-            <element signature="e#2901#2935#0" expanded="true" />
-            <element signature="e#2953#2987#0" expanded="true" />
-            <element signature="e#3005#3039#0" expanded="true" />
-            <element signature="e#3057#3091#0" expanded="true" />
-            <element signature="e#3109#3143#0" expanded="true" />
-            <element signature="e#3161#3195#0" expanded="true" />
-            <element signature="e#3213#3247#0" expanded="true" />
-            <element signature="e#3265#3299#0" expanded="true" />
-            <element signature="e#5866#5897#0" expanded="true" />
-            <element signature="e#5966#5998#0" expanded="true" />
-            <element signature="e#10652#10671#0" expanded="true" />
-          </folding>
+        <state line="125" column="61" selection-start="6513" selection-end="6513" vertical-scroll-proportion="1.7872162" vertical-offset="0" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/view/FragmentTabAllView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/detailsFragments/FragmentProjectAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="54" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1734">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,11 +1289,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/adapter/DraweListViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.91574585" vertical-offset="0" max-vertical-offset="918">
+        <state line="39" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#644#645#0" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/soloway/banking/sberstarter/NavigationDrawerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="0" selection-start="8156" selection-end="8156" vertical-scroll-proportion="2.3813765" vertical-offset="0" max-vertical-offset="4590">
+          <folding>
+            <element signature="e#2849#2883#0" expanded="true" />
+            <element signature="e#2901#2935#0" expanded="true" />
+            <element signature="e#2953#2987#0" expanded="true" />
+            <element signature="e#3005#3039#0" expanded="true" />
+            <element signature="e#3057#3091#0" expanded="true" />
+            <element signature="e#3109#3143#0" expanded="true" />
+            <element signature="e#3161#3195#0" expanded="true" />
+            <element signature="e#3213#3247#0" expanded="true" />
+            <element signature="e#3265#3299#0" expanded="true" />
+            <element signature="e#5866#5897#0" expanded="true" />
+            <element signature="e#5966#5998#0" expanded="true" />
+            <element signature="e#10652#10671#0" expanded="true" />
           </folding>
         </state>
       </provider>

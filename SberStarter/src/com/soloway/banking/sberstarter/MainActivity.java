@@ -80,6 +80,12 @@ public class MainActivity extends FragmentActivity
         		FragmentProjectDiscuss.class, null);
         mDescrHost.addTab(mDescrHost.newTabSpec("fund").setIndicator(getResources().getString(R.string.tab_fund)),
         		FragmentProjectFund.class, null);
+        for(int i=0;i<mDescrHost.getTabWidget().getChildCount();i++) 
+        {
+            TextView tv = (TextView) mDescrHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
+            tv.setTextColor(Color.parseColor("#FFFFFF"));
+        } 
+	 
 	}
 
 	private void createProjectList() {
@@ -93,6 +99,11 @@ public class MainActivity extends FragmentActivity
                 FragmentTabAll.class, null);
         mTabHost.addTab(mTabHost.newTabSpec("tab3").setIndicator(getResources().getString(R.string.tab_my_deposit)),
                 FragmentTabAll.class, null);
+        for(int i=0;i<mTabHost.getTabWidget().getChildCount();i++) 
+        {
+            TextView tv = (TextView) mTabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
+            tv.setTextColor(Color.parseColor("#FFFFFF"));
+        }
 	}
 
     @Override

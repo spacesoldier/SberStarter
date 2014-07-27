@@ -1,5 +1,6 @@
 package com.soloway.banking.sberstarter;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -7,6 +8,7 @@ import android.support.v4.app.FragmentTabHost;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class FragmentProjectDescr extends Fragment {
 	
@@ -32,6 +34,12 @@ public class FragmentProjectDescr extends Fragment {
 	        		FragmentProjectDiscuss.class, null);
 	        mTabHost.addTab(mTabHost.newTabSpec("fund").setIndicator(getResources().getString(R.string.tab_my_deposit)),
 	        		FragmentProjectFund.class, null);
+	        
+	        for(int i=0;i<mTabHost.getTabWidget().getChildCount();i++) 
+	        {
+	            TextView tv = (TextView) mTabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
+	            tv.setTextColor(Color.parseColor("#FFFFFF"));
+	        } 
 		 
 		 // Inflate the layout for this fragment
 	        View V = inflater.inflate(R.layout.fragment_project_descr, container, false);

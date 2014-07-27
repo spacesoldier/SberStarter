@@ -42,5 +42,8 @@
     <string name="tab_author">Автор</string>
     <string name="tab_discuss">Форум</string>
     <string name="tab_fund">Поддержать</string>
+    
+    <string name="place_1">Ижевск, Россия</string>
+    <string name="cat_1">Музыка</string>
 
 </resources>

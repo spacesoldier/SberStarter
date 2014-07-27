@@ -29,4 +29,5 @@
         android:drawable="@drawable/sberstartertheme_btn_default_disabled_focused_holo_light" />
     <item
          android:drawable="@drawable/sberstartertheme_btn_default_disabled_holo_light" />
+    <item android:textColor="#e4e4e4"/>
 </selector>

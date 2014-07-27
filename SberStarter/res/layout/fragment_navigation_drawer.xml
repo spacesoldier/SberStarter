@@ -4,7 +4,10 @@
     android:layout_height="match_parent"
     android:background="#30383b"
     android:choiceMode="singleChoice"
-    android:divider="#ffffff"
-    android:textColor="#ffffff"
+    android:divider="#FFFFFF"
+    android:dividerHeight="1dp"
+
     tools:context="com.soloway.banking.sberstarter.NavigationDrawerFragment" />
 
+  <!--  android:divider="#ffffff"
+    android:textColor="#ffffff"-->

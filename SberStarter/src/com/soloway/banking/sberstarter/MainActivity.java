@@ -44,6 +44,8 @@ public class MainActivity extends FragmentActivity
     private Fragment fragmentProjectAuthor = new FragmentProjectAuthor();
     private Fragment fragmentProjectDiscuss = new FragmentProjectDiscuss();
     private Fragment fragmentProjectFund = new FragmentProjectFund();
+    
+    private boolean onProject = false;
 
 
     public static MainActivity newInstance() {
@@ -86,6 +88,8 @@ public class MainActivity extends FragmentActivity
             TextView tv = (TextView) mDescrHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
             tv.setTextColor(Color.parseColor("#FFFFFF"));
         } 
+        
+        onProject = true;
 	 
 	}
 
@@ -109,6 +113,11 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onNavigationDrawerItemSelected(int position) {
+    	
+    	if (onProject){
+    		mDescrHost.clearAllTabs();
+    		createProjectList();
+    	}
     	
     	/*
     	switch (position){

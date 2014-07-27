@@ -4,6 +4,7 @@ package com.soloway.banking.sberstarter;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.graphics.Color;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,10 +18,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.*;
 
 /**
  * Fragment used for managing interactions for and presentation of a navigation drawer.
@@ -254,7 +252,7 @@ public class NavigationDrawerFragment extends Fragment {
         }
 
         if (item.getItemId() == R.id.action_example) {
-            Toast.makeText(getActivity(), "Поиск", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "пїЅпїЅпїЅпїЅпїЅ", Toast.LENGTH_SHORT).show();
             return true;
         }
 
